@@ -47,6 +47,7 @@ BSDF_ORDERING = [
     'retarder',
     'circular',
     'pplastic'
+    'ward'
 ]
 
 EMITTER_ORDERING = [
