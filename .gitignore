@@ -48,3 +48,10 @@ mitsuba.*.log
 .settings
 .cproject
 .project
+/scene
+/doc
+/build
+/data
+/.vscode
+LICENSE
+/.sconf_temp

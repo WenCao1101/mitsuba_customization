@@ -104,8 +104,10 @@ Point2 squareToUniformDiskConcentric(const Point2 &sample) {
 Point2 uniformDiskToSquareConcentric(const Point2 &p) {
     Float r   = std::sqrt(p.x * p.x + p.y * p.y),
           phi = std::atan2(p.y, p.x),
-          a, b;
-
+            a, b;
+   
+   
+   
     if (phi < -M_PI/4) {
         /* in range [-pi/4,7pi/4] */
         phi += 2*M_PI;
