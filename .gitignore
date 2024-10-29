@@ -39,7 +39,7 @@ LICENSE
 /.github
 *.tex
 *.toml
-*.md
+
 *.clang-format
 /.github
 /ext
